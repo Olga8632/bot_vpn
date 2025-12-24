@@ -11,8 +11,8 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.fsm.storage.memory import MemoryStorage
 import os
 
-TOKEN = os.getenv("7952414869:AAFMBkAHgcTcFaEjb8EabLSBZkEWj5h2Vjw")
-ADMIN_ID = int(os.getenv("72213910"))
+TOKEN = os.getenv("TOKEN")
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
